@@ -613,7 +613,7 @@ client.on('message', msg => {
 const user = msg.mentions.users.first();
 if(!user) return msg.channel.send('``' + '**قم بتحديد بوت**' + '``')
 if(!user.bot) return msg.reply('\`منشن بوت\`');
-msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?client_id=${user.id}&scope=bot&permissions=384064`)
+msg.channel.send(`**Bot InviteURL : **so sorry this bot for team `)
     }
 });
 
@@ -640,7 +640,7 @@ client.on('message', message => { //By |.iiMostafaYT#1001
             .setAuthor(client.user.username,client.user.avatarURL) //By |.iiMostafaYT#1001
             .setThumbnail(client.user.avatarURL) //By |.iiMostafaYT#1001
             .setColor('RANDOM') //By |.iiMostafaYT#1001
-            .setTitle('Info Z Bot') //By |.iiMostafaYT#1001
+            .setTitle('Info bot') //By |.iiMostafaYT#1001
             .addField('**My Ping**' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true) //By |.iiMostafaYT#1001
             .addField('**RAM Usage**', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true) //By |.iiMostafaYT#1001
             .addField('**Servers**', [client.guilds.size], true) //By |.iiMostafaYT#1001
@@ -654,7 +654,7 @@ client.on('message', message => { //By |.iiMostafaYT#1001
             .addField('**Platform**' , `[ ${process.platform} ]` , true) //By |.iiMostafaYT#1001
                   .addField('**My Prefix**' , `[ ${prefix} ]` , true) //By |.iiMostafaYT#1001
                   .addField('**My Language**' , `[ Java Script ]` , true) //By |.iiMostafaYT#1001
-                  .setFooter('By | @HeemPlayz#9999 ') //By |.iiMostafaYT#1001
+                  .setFooter('By | @!Relax#2019 ') //By |.iiMostafaYT#1001
     }) //By |.iiMostafaYT#1001
 } //By |.iiMostafaYT#1001
 }); //By |.iiMostafaYT#1001
@@ -707,7 +707,7 @@ client.on('message', message=> {
     if (message.author.bot) return;
     if (message.isMentioned(client.user))
     {
-    message.reply("Hey!\nTo Get Started\n`$help`\nBot Developer\n`@HeemPlayz#9999`\nMy Prefix:\n`$`");
+    message.reply("Hey!\nTo Get Started\n`$help`\nBot Developer\n`@!Relax#2019`\nMy Prefix:\n`$`");
     }
 });
 
