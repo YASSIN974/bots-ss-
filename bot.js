@@ -352,6 +352,7 @@ client.on('message', message => {
   .addField("**Reason:**", '**[ ' + `${reason}` + ' ]**')
   message.channel.send({
     embed : kickembed
+	  
   })
 }
 });
@@ -437,8 +438,9 @@ client.on('message', message => {
           if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(':x:');
                  message.channel.overwritePermissions(message.guild.id, {
                  READ_MESSAGES: true
+			 
      })
-                  message.channel.send('Done  ')
+                  
      }
     });
     
