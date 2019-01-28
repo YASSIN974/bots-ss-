@@ -1049,6 +1049,7 @@ client.on('message', message => {
     }
 });
 
+
 client.on('message', message => { 
 let prefix = '$'
     if (message.content.startsWith(prefix + 'emojilist')) {
@@ -1064,6 +1065,7 @@ let prefix = '$'
         message.channel.send(EmojiList) 
     }
 });
+
 
 client.on('guildCreate', guild => {
     var embed = new Discord.RichEmbed()
